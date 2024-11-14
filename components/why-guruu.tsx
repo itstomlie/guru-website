@@ -13,11 +13,11 @@ import { Input } from "./ui/input"
 const WhyGuruu = () => {
   return (
     <div className="p-5 sm:p-10 mt-5 sm:mt-20">
-      <section className="flex flex-row items-center justify-center space-y-5 sm:space-y-10">
-        <div className="w-full text-start px-4 sm:px-0">
-          <h1 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
-            Experience the Power of Personalized Learning with Guru
-          </h1>
+      <section className="flex flex-col items-center justify-center space-y-5 sm:space-y-10">
+        <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 order-1">
+          Experience the Power of Personalized Learning with Guru
+        </h2>
+        <div className="w-full text-start order-3">
           <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
             At Guru, personalized learning is at the heart of what we do. Our
             platform uses advanced AI to tailor educational content to each
@@ -32,31 +32,31 @@ const WhyGuruu = () => {
             maximizes your growth. Dive into a world where education is an
             adventure tailored just for you!
           </p>
-          <ul>
+          <ul className="list-disc list-inside py-5">
             <li>
-              Enhanced Engagement: Students stay motivated with content that
-              matches their interests
+              <b>Enhanced Engagement:</b> Students stay motivated with content
+              that matches their interests
             </li>
             <li>
-              Improved Retention: Interactive quizzes reinforce learning, making
-              knowledge stick
+              <b>Improved Retention:</b> Interactive quizzes reinforce learning,
+              making knowledge stick
             </li>
             <li>
-              Adaptive Progression: Learning paths adjust to individual pace,
-              ensuring no one is left behind
+              <b>Adaptive Progression:</b> Learning paths adjust to individual
+              pace, ensuring no one is left behind
             </li>
             <li>
-              Limitless Exploration: AI introduces new topics, expanding
+              <b>Limitless Exploration:</b> AI introduces new topics, expanding
               horizons beyond the standard curriculum
             </li>
             <li>
-              Empowered Students: Personalized content fosters confidence in
-              learners, promoting self-driven education
+              <b>Empowered Students:</b> Personalized content fosters confidence
+              in learners, promoting self-driven education
             </li>
           </ul>
         </div>
 
-        <div className="w-3/4">
+        <div className="w-full order-2">
           <Image
             src={"/Guruu Orange.svg"}
             width={200}

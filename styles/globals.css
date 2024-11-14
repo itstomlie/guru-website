@@ -78,4 +78,18 @@
     @apply bg-background text-foreground;
     font-feature-settings: "rlig" 1, "calt" 1;
   }
+
+  .glass-card {
+    background: linear-gradient(
+          to right,
+          rgba(169, 255, 123, 0.4),
+          rgba(76, 215, 118, 0.4)
+        )
+        padding-box,
+      rgba(228, 35, 35, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
 }

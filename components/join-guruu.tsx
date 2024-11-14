@@ -14,11 +14,11 @@ const JoinGuruu = () => {
   return (
     <div className="p-5 sm:p-10 mt-5 sm:mt-20">
       <section className="flex flex-col items-center justify-center space-y-5 sm:space-y-10">
-        <h1 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
+        <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 text-center">
           Unleash Your Educational Passion with Guruu! 🌟
-        </h1>
-        <div className="w-full text-start px-4 sm:px-0 order-2">
-          <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300 order-3">
+        </h2>
+        <div className="w-full text-start order-2">
+          <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-300 order-3">
             Join Guruu&apos;s Edu Creator Partnership Program and transform your
             passion for education into a rewarding adventure! You&apos;ll gain
             the opportunity to design captivating learning experiences that
@@ -31,7 +31,7 @@ const JoinGuruu = () => {
             educational influencer!🎬🎓
           </p>
           <form
-            className="mt-4 flex flex-col items-start justify-center gap-4 w-full mx-auto py-5 max-w-full "
+            className="flex flex-col items-start justify-center gap-4 w-full mx-auto py-5 max-w-full "
             action="#"
             method="post"
           >
