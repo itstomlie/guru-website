@@ -12,7 +12,7 @@ import { Input } from "./ui/input"
 
 const Hero = () => {
   return (
-    <div className="p-5 sm:p-10 mt-5 sm:mt-20 overflow-hidden">
+    <div className="p-5 sm:p-10 sm:mt-20 overflow-hidden">
       <section className="flex flex-col items-center justify-center space-y-5 sm:space-y-10">
         <div className="w-full text-start px-4 sm:px-0 order-2 sm:order-1">
           <h1 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
@@ -43,10 +43,11 @@ const Hero = () => {
 
         <div className="w-3/4 sm:w-full order-1 sm:order-2">
           <Image
-            src={"./Guruu Orange.svg"}
-            width={200}
-            height={200}
-            alt="Hero image"
+            src={"https://placehold.co/400"}
+            width={0}
+            height={0}
+            style={{ width: "100%", height: "auto", objectFit: "cover" }}
+            alt="feature image"
           />
         </div>
       </section>

@@ -21,11 +21,11 @@ const features = [
   },
   {
     title: "Gamification with customizable characters, pets, mounts, & dojos",
-    text: "You create and customize your avatar, collect pets and mounts, and design your personal &apos;dojo&apos; (learning space). Complete challenges and quizzes to level up your character, unlock new customizations, abilities, and content.",
+    text: `You create and customize your avatar, collect pets and mounts, and design your personal 'dojo'; (learning space). Complete challenges and quizzes to level up your character, unlock new customizations, abilities, and content.`,
   },
   {
-    title: "&apos;Guruu UNIVERSE&apos;: Structured learning paths",
-    text: "If you want a more structured way of learning, &apos;Guruu Universe&apos; has you covered. Discover hundreds of curated learning paths crafted by Institutions, teachers, and experts. ",
+    title: `'Guruu UNIVERSE': Structured learning paths`,
+    text: `If you want a more structured way of learning, 'Guruu Universe' has you covered. Discover hundreds of curated learning paths crafted by Institutions, teachers, and experts. `,
   },
 ]
 
@@ -36,19 +36,20 @@ const Features = () => {
         <h2 className="text-2xl sm:text-4xl lg:text-6xl text-center font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
           Features
         </h2>
-        <div className="flex flex-row sm:flex-col items-center justify-center space-y-5 sm:space-y-10">
-          <div className="w-3/4 sm:w-full">
+        <div className="flex flex-col sm:flex-row items-center justify-center space-y-5 sm:space-y-10">
+          <div className="w-full order-1">
             <Image
-              src={"./Guruu Orange.svg"}
-              width={200}
-              height={200}
+              src={"https://placehold.co/400"}
+              width={0}
+              height={0}
+              style={{ width: "100%", height: "auto", objectFit: "cover" }}
               alt="feature image"
             />
           </div>
-          <div className="flex flex-col sm:flex-row max-w-[50%] sm:max-w-full space-y-5 sm:space-x-5">
+          <div className="flex flex-col max-w-full md:max-w-[50%] space-y-5 md:space-x-0 order-2">
             {features.map((feature) => {
               return (
-                <div className="w-full sm:w-[50%] text-center px-4 sm:px-0 border border-white rounded-md p-5">
+                <div className="w-full text-center px-4 sm:px-0 border border-white rounded-md p-5">
                   <h6 className="text-lg sm:text-xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
                     {feature.title}
                   </h6>

@@ -58,7 +58,7 @@ const WhyGuruu = () => {
 
         <div className="w-3/4">
           <Image
-            src={"./Guruu Orange.svg"}
+            src={"/Guruu Orange.svg"}
             width={200}
             height={200}
             alt="Why Guruu image"

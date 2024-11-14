@@ -14,7 +14,7 @@ const userFlow = [
   {
     icon: "",
     title: "Create Your Account",
-    text: "Begin your adventure by signing up with Guruu. Use a username and password that you&apos;ll remember, and get ready to explore endless learning possibilities.",
+    text: `Begin your adventure by signing up with Guruu. Use a username and password that you'll remember, and get ready to explore endless learning possibilities.`,
   },
   {
     title: "Set Your Preferences",
@@ -33,7 +33,7 @@ const userFlow = [
 const UserFlow = () => {
   return (
     <div className="p-5 sm:p-10 mt-5 sm:mt-20">
-      <section className="flex flex-row items-space justify-between space-x-5 sm:space-x-10">
+      <section className="flex flex-col items-space justify-between space-y-5 sm:space-x-10">
         {userFlow.map((feature) => {
           return (
             <div className="w-full text-center px-4 sm:px-0 border border-white rounded-md p-5">

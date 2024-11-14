@@ -44,7 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
         >
           <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
             <SiteHeader />
-            <div className="relative overflow-x-hidden py-20 lg:py-0 md:py-0 sm:py-20">
+            <div className="relative overflow-x-hidden py-5 lg:py-0 md:py-0 sm:py-20">
               <div className="flex-1">{children}</div>
 
               <DotPattern
