@@ -21,11 +21,11 @@ const features = [
   },
   {
     title: "Gamification with customizable characters, pets, mounts, & dojos",
-    text: "You create and customize your avatar, collect pets and mounts, and design your personal 'dojo' (learning space). Complete challenges and quizzes to level up your character, unlock new customizations, abilities, and content.",
+    text: "You create and customize your avatar, collect pets and mounts, and design your personal &apos;dojo&apos; (learning space). Complete challenges and quizzes to level up your character, unlock new customizations, abilities, and content.",
   },
   {
-    title: "'Guruu UNIVERSE': Structured learning paths",
-    text: "If you want a more structured way of learning, 'Guruu Universe' has you covered. Discover hundreds of curated learning paths crafted by Institutions, teachers, and experts. ",
+    title: "&apos;Guruu UNIVERSE&apos;: Structured learning paths",
+    text: "If you want a more structured way of learning, &apos;Guruu Universe&apos; has you covered. Discover hundreds of curated learning paths crafted by Institutions, teachers, and experts. ",
   },
 ]
 

@@ -22,7 +22,7 @@ const Hero = () => {
             Guruu is a shortform-video based educational platform that makes
             learning fun! Come explore a wide range of educational content on
             your favorite topics. From science and languages to everyday life
-            tips — it's all here on your fingertips!
+            tips — it&apos;s all here on your fingertips!
           </p>
           <form
             className="mt-4 flex flex-col items-start justify-center gap-4 w-full mx-auto py-5 max-w-full"
@@ -42,7 +42,12 @@ const Hero = () => {
         </div>
 
         <div className="w-3/4 sm:w-full order-1 sm:order-2">
-          <Image src={"./Guruu Orange.svg"} width={200} height={200} />
+          <Image
+            src={"./Guruu Orange.svg"}
+            width={200}
+            height={200}
+            alt="Hero image"
+          />
         </div>
       </section>
     </div>

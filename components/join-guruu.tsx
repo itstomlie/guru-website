@@ -19,14 +19,14 @@ const JoinGuruu = () => {
             Unleash Your Educational Passion with Guruu! 🌟
           </h1>
           <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
-            Join Guruu's Edu Creator Partnership Program and transform your
-            passion for education into a rewarding adventure! You'll gain the
-            opportunity to design captivating learning experiences that resonate
-            with students from primary school to university.
+            Join Guruu&apos;s Edu Creator Partnership Program and transform your
+            passion for education into a rewarding adventure! You&apos;ll gain
+            the opportunity to design captivating learning experiences that
+            resonate with students from primary school to university.
             <br />
             <br />
-            By sharing your expertise, you'll be part of a global movement that
-            empowers learners and enriches minds. Plus, you'll receive
+            By sharing your expertise, you&apos;ll be part of a global movement
+            that empowers learners and enriches minds. Plus, you&apos;ll receive
             recognition and rewards for your creativity, helping you grow as an
             educational influencer!🎬🎓
           </p>
@@ -61,7 +61,12 @@ const JoinGuruu = () => {
         </div>
 
         <div className="w-3/4">
-          <Image src={"./Guruu Orange.svg"} width={200} height={200} />
+          <Image
+            src={"./Guruu Orange.svg"}
+            width={200}
+            height={200}
+            alt="Join Guruu image"
+          />
         </div>
       </section>
     </div>

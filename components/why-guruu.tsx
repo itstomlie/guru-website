@@ -21,11 +21,11 @@ const WhyGuruu = () => {
           <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
             At Guru, personalized learning is at the heart of what we do. Our
             platform uses advanced AI to tailor educational content to each
-            student's unique interests and pace. Whether you're in primary
-            school discovering science, a teenager diving into history, or a
-            university student exploring complex mathematics, Guru ensures a
-            learning experience that's just right for you. By analyzing your
-            preferences and performance, our intelligent system recommends
+            student&apos;s unique interests and pace. Whether you&apos;re in
+            primary school discovering science, a teenager diving into history,
+            or a university student exploring complex mathematics, Guru ensures
+            a learning experience that&apos;s just right for you. By analyzing
+            your preferences and performance, our intelligent system recommends
             videos that not only cater to your academic needs but also ignite
             your curiosity and passion. This approach transforms learning into
             an engaging, interactive journey that accelerates your potential and
@@ -57,7 +57,12 @@ const WhyGuruu = () => {
         </div>
 
         <div className="w-3/4">
-          <Image src={"./Guruu Orange.svg"} width={200} height={200} />
+          <Image
+            src={"./Guruu Orange.svg"}
+            width={200}
+            height={200}
+            alt="Why Guruu image"
+          />
         </div>
       </section>
     </div>

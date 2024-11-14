@@ -17,7 +17,7 @@ const Waitlist = () => {
           Get in Touch with the Guru Team
         </h1>
         <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
-          If you're interested in collaborating or just curious about the
+          If you&apos;re interested in collaborating or just curious about the
           project, feel free to reach us and we will get back to you promptly.
         </p>
         <form
@@ -49,7 +49,6 @@ const Waitlist = () => {
           >
             Submit
           </Button>
-     
         </form>
       </div>
     </section>
