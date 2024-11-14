@@ -31,7 +31,7 @@ const Hero = () => {
           <Input
             type="email"
             placeholder="naruto@gmail.com"
-            className="w-full h-[45px] flex-1 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 dark:focus:ring-yellow-400"
+            className="w-full h-[45px] flex-1 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ff7a45] dark:focus:ring-[#ff7a45]"
             required
           />
           <Button className="w-full" size="lg">
