@@ -1,11 +1,60 @@
 "use client"
 
+import { useState } from "react"
 import Image from "next/image"
+import emailjs from "@emailjs/browser"
 
 import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 
 const JoinGuruu = () => {
+  const [form, setForm] = useState({
+    name: "",
+    email: "",
+    message: "",
+  })
+
+  const handleChange = (e) => {
+    const { name, value } = e.target
+    setForm({ ...form, [name]: value })
+  }
+
+  const handleSubmit = async (e) => {
+    await e.preventDefault()
+
+    try {
+      if (!form.email) {
+        alert("Please fill in your email")
+        return
+      }
+
+      await emailjs.send(
+        process.env.NEXT_PUBLIC_EMAIL_JS_SERVICE_ID!,
+        process.env.NEXT_PUBLIC_EMAIL_JS_TEMPLATE_ID!,
+        {
+          from_name: form.name,
+          to_name: "Tommy",
+          from_email: form.email,
+          to_email: "contactguruu.id@gmail.com",
+          message: form.message,
+        },
+        { publicKey: process.env.NEXT_PUBLIC_EMAIL_JS_PUBLIC_KEY }
+      )
+
+      setForm({
+        name: "",
+        email: "",
+        message: "I'm interested to be a Creator Partner",
+      })
+
+      alert("Thank you. I will get back to you as soon as possible")
+    } catch (error) {
+      console.log(error)
+
+      alert("Something went wrong, please try again")
+    }
+  }
+
   return (
     <section className="container mt-5 p-5 sm:p-10 md:mt-10">
       <h2 className="lg:text-6xl text-center text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
@@ -27,16 +76,18 @@ const JoinGuruu = () => {
           </p>
           <form
             className="mx-auto flex w-full max-w-full flex-col items-start justify-center gap-4 py-5 "
-            action="#"
-            method="post"
+            onSubmit={handleSubmit}
           >
             <Input
               type="email"
+              name="email"
+              value={form.email}
+              onChange={handleChange}
               placeholder="Enter your email"
               className="h-[45px] w-full min-w-0 flex-1 rounded-l-lg border border-neutral-300 text-center text-lg text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#ff7a45] focus:ring-offset-2 dark:border-neutral-700 dark:text-neutral-100 dark:focus:ring-[#ff7a45]"
               required
             />
-            <Button className="w-full text-lg" size="lg">
+            <Button className="w-full text-lg shadow-lg" size="lg">
               🤝 Become a creator partner with us!
             </Button>
             {/* <div className="w-full flex justify-center"> */}
