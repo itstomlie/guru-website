@@ -43,9 +43,10 @@ const Hero = () => {
 
       <div className="z-10 order-1 w-3/4 sm:w-full md:order-2">
         <Image
-          src={"/Guruu Orange.svg"}
-          width={200}
-          height={200}
+          src={"/images/features.png"}
+          width={300}
+          height={500}
+          style={{ width: "100%", height: "auto", objectFit: "cover" }}
           alt="Why Guruu image"
         />
       </div>

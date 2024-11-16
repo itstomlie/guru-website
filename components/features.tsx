@@ -30,11 +30,11 @@ const Features = () => {
         </h2>
 
         <div className="mt-5 flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row md:space-x-10 ">
-          <div className="z-10 order-1 w-full">
+          <div className="z-10 order-1 mb-6 w-full md:mb-0">
             <Image
-              src={"/features.png"}
-              width={300}
-              height={500}
+              src={"/images/hero.svg"}
+              width={0}
+              height={0}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
               alt="feature image"
             />

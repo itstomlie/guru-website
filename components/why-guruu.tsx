@@ -43,11 +43,17 @@ const WhyGuruu = () => {
           </ul>
         </div>
 
-        <div className="order-2 w-full">
+        <div className="order-2 mb-6 flex w-full justify-center md:mb-0">
           <Image
-            src={"/Guruu Orange.svg"}
-            width={200}
-            height={200}
+            src={"/images/hooked.svg"}
+            width={0}
+            height={0}
+            style={{
+              width: "50%",
+              height: "auto",
+              objectFit: "cover",
+              marginBottom: "1.5rem",
+            }}
             alt="Why Guruu image"
           />
         </div>
