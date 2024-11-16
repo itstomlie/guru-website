@@ -1,33 +1,34 @@
-import { Dock, DockIcon } from "@/components/magicui/dock";
-import React from "react";
+import React from "react"
 
-export type IconProps = React.HTMLAttributes<SVGElement>;
+import { Dock, DockIcon } from "@/components/magicui/dock"
+
+export type IconProps = React.HTMLAttributes<SVGElement>
 
 export default function DockLive() {
   return (
-    <div className="  h-[500px] w-full max-w-[32rem] flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
+    <div className="  h-[500px] w-full max-w-lg flex-col items-center justify-center overflow-hidden rounded-lg  bg-background ">
       {/* <span className="pointer-events-none whitespace-pre-wrap bg-gradient-to-b from-black to-gray-300/80 bg-clip-text text-center text-8xl font-semibold leading-none text-transparent dark:from-white dark:to-slate-900/10">
         Dock
       </span> */}
       <Dock>
         <DockIcon>
-          <Icons.twitter className="h-6 w-6" />
+          <Icons.twitter className="size-6" />
         </DockIcon>
         <DockIcon>
-          <Icons.linkedin className="h-6 w-6" />
+          <Icons.linkedin className="size-6" />
         </DockIcon>
         <DockIcon>
-          <Icons.openai className="h-6 w-6" />
+          <Icons.openai className="size-6" />
         </DockIcon>
         <DockIcon>
-          <Icons.facebook className="h-6 w-6" />
+          <Icons.facebook className="size-6" />
         </DockIcon>
         <DockIcon>
-          <Icons.whatsapp className="h-6 w-6" />
+          <Icons.whatsapp className="size-6" />
         </DockIcon>
       </Dock>
     </div>
-  );
+  )
 }
 
 const Icons = {
@@ -71,5 +72,4 @@ const Icons = {
       />
     </svg>
   ),
-};
-
+}

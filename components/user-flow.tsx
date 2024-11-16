@@ -32,15 +32,15 @@ const userFlow = [
 
 const UserFlow = () => {
   return (
-    <div className="container p-5 sm:p-10 mt-5 md:mt-10">
-      <section className="flex flex-col md:flex-row items-stretch justify-between md:space-x-5 space-y-5 md:space-y-0">
+    <div className="container mt-5 p-5 sm:p-10 md:mt-10">
+      <section className="flex flex-col items-stretch justify-between space-y-5 md:flex-row md:space-x-5 md:space-y-0">
         {userFlow.map((feature) => {
           return (
-            <div className="w-full text-center px-4 border dark:border-white border-black rounded-md p-5">
-              <h6 className="text-lg sm:text-xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
+            <div className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white">
+              <h6 className="text-lg font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-xl">
                 {feature.title}
               </h6>
-              <p className="mt-4 text-sm sm:text-lg text-neutral-600 dark:text-neutral-300">
+              <p className="mt-4 text-sm text-neutral-600 dark:text-neutral-300 sm:text-lg">
                 {feature.text}
               </p>
             </div>

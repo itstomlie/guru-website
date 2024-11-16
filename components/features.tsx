@@ -23,14 +23,14 @@ const features = [
 
 const Features = () => {
   return (
-    <div className="container p-5 sm:p-10 mt-5 md:mt-10">
+    <div className="container mt-5 p-5 sm:p-10 md:mt-10">
       <section className="">
-        <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 text-center ">
+        <h2 className="lg:text-6xl text-center text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl ">
           Features
         </h2>
 
-        <div className="flex flex-col mt-5 md:flex-row items-center justify-center space-y-5 sm:space-y-10 md:space-x-10 ">
-          <div className="w-full order-1 z-10">
+        <div className="mt-5 flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row md:space-x-10 ">
+          <div className="z-10 order-1 w-full">
             <Image
               src={"https://placehold.co/400"}
               width={0}
@@ -39,14 +39,14 @@ const Features = () => {
               alt="feature image"
             />
           </div>
-          <div className="flex flex-col max-w-full md:max-w-[50%] space-y-5 md:space-x-0 order-2">
+          <div className="order-2 flex max-w-full flex-col space-y-5 md:max-w-[50%] md:space-x-0">
             {features.map((feature) => {
               return (
-                <div className="w-full text-center px-4 border dark:border-white border-black rounded-md p-5  ">
-                  <h6 className="text-lg sm:text-xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100">
+                <div className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white  ">
+                  <h6 className="text-lg font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-xl">
                     {feature.title}
                   </h6>
-                  <p className="mt-4 text-md sm:text-lg text-neutral-600 dark:text-neutral-300">
+                  <p className="text-md mt-4 text-neutral-600 dark:text-neutral-300 sm:text-lg">
                     {feature.text}
                   </p>
                 </div>

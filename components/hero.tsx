@@ -7,26 +7,26 @@ import { Input } from "./ui/input"
 
 const Hero = () => {
   return (
-    <section className="container overflow-hidden flex flex-col md:flex-row items-center justify-center space-y-5 md:space-y-0 md:space-x-10 ">
-      <div className="w-full text-start sm:px-0 order-2 md:order-1 md:mt-10 z-10">
-        <h1 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 mt-5 md:mt-0">
+    <section className="container flex flex-col items-center justify-center space-y-5 overflow-hidden md:flex-row md:space-x-10 md:space-y-0 ">
+      <div className="z-10 order-2 w-full text-start sm:px-0 md:order-1 md:mt-10">
+        <h1 className="lg:text-6xl mt-5 text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:mt-0">
           Revolutionize your learning journey! 🚀
         </h1>
-        <p className="mt-3 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
+        <p className="mt-3 text-lg text-neutral-600 dark:text-neutral-300 sm:text-xl">
           Guruu is a short-form video based educational platform that makes
           learning fun! Come explore a wide range of educational content on your
           favorite topics. From science and languages to everyday life tips —
           it&apos;s all here on your fingertips!
         </p>
         <form
-          className="mt-3 flex flex-col items-start justify-center gap-4 w-full mx-auto max-w-full"
+          className="mx-auto mt-3 flex w-full max-w-full flex-col items-start justify-center gap-4"
           action="#"
           method="post"
         >
           <Input
             type="email"
             placeholder="Enter your email"
-            className="w-full h-[45px] text-center text-lg flex-1 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ff7a45] dark:focus:ring-[#ff7a45]"
+            className="h-[45px] w-full flex-1 rounded-l-lg border border-neutral-300 text-center text-lg text-neutral-900 focus:outline-none focus:ring-2 focus:ring-[#ff7a45] focus:ring-offset-2 dark:border-neutral-700 dark:text-neutral-100 dark:focus:ring-[#ff7a45]"
             required
           />
           <Button className="w-full text-lg" size="lg">
@@ -35,7 +35,7 @@ const Hero = () => {
         </form>
       </div>
 
-      <div className="w-3/4 sm:w-full order-1 md:order-2 z-10">
+      <div className="z-10 order-1 w-3/4 sm:w-full md:order-2">
         <Image
           src={"https://placehold.co/400"}
           width={0}

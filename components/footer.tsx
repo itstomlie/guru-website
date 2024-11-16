@@ -15,7 +15,7 @@ const Footer = () => {
           height={200}
           alt="Why Guruu image"
         />
-        <small className="text-gray-300 text-xs">
+        <small className="text-xs text-gray-300">
           © 2024 Guruu. All rights reserved.
         </small>
       </section>

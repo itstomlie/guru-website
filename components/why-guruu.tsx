@@ -4,16 +4,16 @@ import Image from "next/image"
 
 const WhyGuruu = () => {
   return (
-    <section className="container p-5 sm:p-10 mt-5 md:mt-10">
-      <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 order-1">
+    <section className="container mt-5 p-5 sm:p-10 md:mt-10">
+      <h2 className="lg:text-6xl order-1 text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
         Experience the Power of Personalized Learning with Guruu
       </h2>
-      <div className="flex flex-col md:flex-row items-center justify-center space-y-5 sm:space-y-10">
-        <div className="w-full text-start order-3">
-          <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
+      <div className="flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row">
+        <div className="order-3 w-full text-start">
+          <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-300 sm:text-xl">
             At Guruu, we place personalized learning at the core of the
             experience, using advanced AI to recommend educational content that
-            aligns with your unique interests. Whether you're exploring new
+            aligns with your unique interests. Whether you&apos;re exploring new
             scientific concepts, uncovering historical insights, or tackling
             complex math, Guruu ensures that each recommendation fosters
             curiosity and engagement.
@@ -22,7 +22,7 @@ const WhyGuruu = () => {
             Dive into a world of limitless knowledge tailored to keep you
             learning and growing!
           </p>
-          <ul className="list-disc list-inside py-5">
+          <ul className="list-inside list-disc py-5">
             <li>
               <b>Enhanced Engagement:</b> AI-recommended content keeps students
               motivated with material aligned to their interests.
@@ -43,7 +43,7 @@ const WhyGuruu = () => {
           </ul>
         </div>
 
-        <div className="w-full order-2">
+        <div className="order-2 w-full">
           <Image
             src={"/Guruu Orange.svg"}
             width={200}
