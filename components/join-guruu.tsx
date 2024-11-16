@@ -1,23 +1,18 @@
 "use client"
 
 import Image from "next/image"
-import { Link } from "lucide-react"
 
-import { cn } from "@/lib/utils"
-import DotPattern from "@/components/magicui/dot-pattern"
-
-import DockLive from "./dock-live"
-import { Button, buttonVariants } from "./ui/button"
+import { Button } from "./ui/button"
 import { Input } from "./ui/input"
 
 const JoinGuruu = () => {
   return (
-    <div className="p-5 sm:p-10 mt-5 sm:mt-20">
-      <section className="flex flex-col items-center justify-center space-y-5 sm:space-y-10">
-        <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 text-center">
-          Unleash Your Educational Passion with Guruu! 🌟
-        </h2>
-        <div className="w-full text-start order-2">
+    <section className="container p-5 sm:p-10 mt-5 md:mt-10">
+      <h2 className="text-2xl sm:text-4xl lg:text-6xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 text-center">
+        Unleash Your Educational Passion with Guruu! 🌟
+      </h2>
+      <div className="flex flex-col md:flex-row items-center justify-center space-y-5 sm:space-y-10 md:space-x-10 md:mt-10">
+        <div className="w-full text-start order-2 md:order-1">
           <p className="text-lg sm:text-xl text-neutral-600 dark:text-neutral-300 order-3">
             Join Guruu&apos;s Edu Creator Partnership Program and transform your
             passion for education into a rewarding adventure! You&apos;ll gain
@@ -37,15 +32,12 @@ const JoinGuruu = () => {
           >
             <Input
               type="email"
-              placeholder="naruto@gmail.com"
-              className="w-full lg:max-w-[400px] sm:w-[300px] md:w-[350px] lg:w-[400px] min-w-0 h-[45px] flex-1 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-yellow-500 dark:focus:ring-yellow-400"
+              placeholder="Enter your email"
+              className="w-full text-center min-w-0 h-[45px] text-lg flex-1 border border-neutral-300 dark:border-neutral-700 text-neutral-900 dark:text-neutral-100 rounded-l-lg focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-[#ff7a45] dark:focus:ring-[#ff7a45]"
               required
             />
-            <Button
-              className="w-full lg:max-w-[400px] sm:w-[300px] md:w-[350px] lg:w-[400px]"
-              size="lg"
-            >
-              Submit
+            <Button className="w-full text-lg" size="lg">
+              🤝 Become a creator partner with us!
             </Button>
             {/* <div className="w-full flex justify-center"> */}
             {/* <p className="mt-4 text-lg sm:text-xl text-neutral-600 dark:text-neutral-300">
@@ -68,8 +60,8 @@ const JoinGuruu = () => {
             alt="Join Guruu image"
           />
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
   )
 }
 

@@ -4,7 +4,6 @@ import { Metadata } from "next"
 import { siteConfig } from "@/config/site"
 import { fontSans } from "@/lib/fonts"
 import { cn } from "@/lib/utils"
-import DockLive from "@/components/dock-live"
 import DotPattern from "@/components/magicui/dot-pattern"
 import { SiteHeader } from "@/components/site-header"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
@@ -54,7 +53,8 @@ export default function RootLayout({ children }: RootLayoutProps) {
                 cy={1}
                 cr={1}
                 className={cn(
-                  "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] "
+                  "[mask-image:linear-gradient(to_bottom_right,white,transparent,transparent)] ",
+                  "z-0"
                 )}
               />
             </div>
