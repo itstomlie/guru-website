@@ -32,17 +32,20 @@ const Features = () => {
         <div className="mt-5 flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row md:space-x-10 ">
           <div className="z-10 order-1 w-full">
             <Image
-              src={"https://placehold.co/400"}
-              width={0}
-              height={0}
+              src={"/features.png"}
+              width={300}
+              height={500}
               style={{ width: "100%", height: "auto", objectFit: "cover" }}
               alt="feature image"
             />
           </div>
           <div className="order-2 flex max-w-full flex-col space-y-5 md:max-w-[50%] md:space-x-0">
-            {features.map((feature) => {
+            {features.map((feature, index) => {
               return (
-                <div className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white  ">
+                <div
+                  key={index}
+                  className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white  "
+                >
                   <h6 className="text-lg font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-xl">
                     {feature.title}
                   </h6>

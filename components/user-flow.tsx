@@ -34,9 +34,12 @@ const UserFlow = () => {
   return (
     <div className="container mt-5 p-5 sm:p-10 md:mt-10">
       <section className="flex flex-col items-stretch justify-between space-y-5 md:flex-row md:space-x-5 md:space-y-0">
-        {userFlow.map((feature) => {
+        {userFlow.map((feature, index) => {
           return (
-            <div className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white">
+            <div
+              key={index}
+              className="w-full rounded-md border border-black p-5 px-4 text-center dark:border-white"
+            >
               <h6 className="text-lg font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-xl">
                 {feature.title}
               </h6>

@@ -39,10 +39,10 @@ const Contact = () => {
             className="h-[45px] w-full min-w-0 flex-1 rounded-lg border border-neutral-300 text-lg text-neutral-900 dark:border-neutral-700 dark:text-neutral-100 sm:w-[300px] md:w-[350px] lg:w-[400px] lg:max-w-[400px]"
           />
           <Button
-            className="w-full sm:w-[300px] md:w-[350px] lg:w-[400px] lg:max-w-[400px]"
+            className="w-full text-lg sm:w-[300px] md:w-[350px] lg:w-[400px] lg:max-w-[400px]"
             size="lg"
           >
-            Submit
+            Send
           </Button>
         </form>
       </div>
