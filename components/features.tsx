@@ -11,10 +11,8 @@ const features = [
     title: "Interactive learning",
     text: (
       <>
-        To reinforce learning,
-        <span className="text-md mt-4 text-[#ff7a45] sm:text-lg">
-          Guruu
-        </span>{" "}
+        To reinforce learning,{" "}
+        <span className="text-md mt-4 text-[#ff7a45] sm:text-lg">Guruu</span>{" "}
         incorporates quizzes, short essays, and problem-solving exercises. These
         activities helps you apply your newly acquired knowledge, enhancing
         retention and deepening understanding of the material. 📝✨
