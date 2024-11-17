@@ -11,7 +11,7 @@ const features = [
     title: "Interactive learning",
     text: (
       <>
-        To reinforce learning, &apos;
+        To reinforce learning,
         <span className="text-md mt-4 text-[#ff7a45] sm:text-lg">
           Guruu
         </span>{" "}

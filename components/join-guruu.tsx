@@ -72,9 +72,9 @@ const JoinGuruu = () => {
               Guruu
             </span>
             &apos;s Edu Creator Partnership Program and transform your passion
-            for education into a rewarding adventure! You&apos;ll gain the
+            for teaching into a rewarding adventure! You&apos;ll gain the
             opportunity to design captivating learning experiences that resonate
-            with students from primary school to university.
+            with viewers from all ages.
             <br />
             <br />
             By sharing your expertise, you&apos;ll be part of a global movement
