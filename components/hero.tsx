@@ -66,10 +66,10 @@ const Hero = () => {
           <span className="text-lg font-bold text-[#ff7a45]   md:text-xl">
             Guruu
           </span>{" "}
-          — the app that transforms your scrolling into smarter learning. Watch
-          fun, bite-sized videos on topics you love — from science and languages
-          to life hacks — and retain your knowledge with quick, interactive
-          quizzes.
+          — the social media app that will transforms your scrolling into
+          smarter learning. Watch fun, bite-sized videos on topics you love —
+          from science and languages to life hacks — and retain your knowledge
+          with quick, interactive quizzes.
           <br />
           <br />
           It&apos;s time to stop wasting hours and start learning something new
