@@ -68,7 +68,7 @@ const Hero = () => {
           </span>{" "}
           — the app that transforms your scrolling into smarter learning. Watch
           fun, bite-sized videos on topics you love — from science and languages
-          to life hacks — and cement your knowledge with quick, interactive
+          to life hacks — and retain your knowledge with quick, interactive
           quizzes.
           <br />
           <br />
