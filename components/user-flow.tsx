@@ -14,11 +14,24 @@ const userFlow = [
   {
     icon: "",
     title: "Create Your Account",
-    text: `Begin your adventure by signing up with Guruu. Use a username and password that you'll remember, and get ready to explore endless learning possibilities.`,
+    text: (
+      <>
+        Begin your adventure by signing up with{" "}
+        <span className="text-sm text-[#ff7a45] sm:text-lg">Guruu</span>. Use a
+        username and password that you&apos;ll remember, and get ready to
+        explore endless learning possibilities.
+      </>
+    ),
   },
   {
     title: "Set Your Preferences",
-    text: "Tell us what excites you! Choose your favorite topics and learning goals to help us customize your educational journey with Guruu.",
+    text: (
+      <>
+        Tell us what excites you! Choose your favorite topics and learning goals
+        to help us customize your educational journey with{" "}
+        <span className="text-sm text-[#ff7a45] sm:text-lg">Guruu</span>.
+      </>
+    ),
   },
   {
     title: "Watch Educational Videos",

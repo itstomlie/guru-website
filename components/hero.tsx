@@ -56,16 +56,24 @@ const Hero = () => {
   }
 
   return (
-    <section className="container flex min-h-[90dvh] flex-col items-center justify-center space-y-5 overflow-hidden md:flex-row md:space-x-10 md:space-y-0 ">
+    <section className="container flex min-h-[85dvh] flex-col items-center justify-center space-y-5 overflow-hidden md:flex-row md:space-x-10 md:space-y-0 ">
       <div className="z-10 order-2 w-full text-start sm:px-0 md:order-1 md:mt-10">
         <h1 className="lg:text-6xl mt-5 text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl md:mt-0">
-          Revolutionize your learning journey! 🚀
+          Tired of Doom Scrolling Without Learning Anything? 🚀
         </h1>
         <p className="mt-3 text-lg text-neutral-600 dark:text-neutral-300 sm:text-xl">
-          Guruu is a short-form video based educational platform that makes
-          learning fun! Come explore a wide range of educational content on your
-          favorite topics. From science and languages to everyday life tips —
-          it&apos;s all here on your fingertips!
+          Meet{" "}
+          <span className="text-lg font-bold text-[#ff7a45]   md:text-xl">
+            Guruu
+          </span>{" "}
+          — the app that transforms your scrolling into smarter learning. Watch
+          fun, bite-sized videos on topics you love — from science and languages
+          to life hacks — and cement your knowledge with quick, interactive
+          quizzes.
+          <br />
+          <br />
+          It&apos;s time to stop wasting hours and start learning something new
+          with every swipe.
         </p>
         <form
           className="mx-auto mt-3 flex w-full max-w-full flex-col items-start justify-center gap-4"

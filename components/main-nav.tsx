@@ -15,7 +15,7 @@ export function MainNav({ items }: MainNavProps) {
       <Link href="/" className="flex items-center space-x-2">
         {/* <Icons.logo className="h-6 w-6" /> */}
         <Image
-          src={"/Guruu Orange.svg"}
+          src={"/Guruu-Orange-Cropped.svg"}
           width={200}
           height={100}
           alt="Guruuu Logo"

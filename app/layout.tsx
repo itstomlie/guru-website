@@ -21,8 +21,8 @@ export const metadata: Metadata = {
   ],
   icons: {
     icon: "/icon.ico",
-    shortcut: "/Guruu Orange.svg",
-    apple: "/Guruu Orange.svg",
+    shortcut: "/Guruu-Orange-Cropped.svg",
+    apple: "/Guruu-Orange-Cropped.svg",
   },
 }
 

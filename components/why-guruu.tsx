@@ -6,17 +6,27 @@ const WhyGuruu = () => {
   return (
     <section className="container mt-5 p-5 sm:p-10 md:mt-10">
       <h2 className="lg:text-6xl order-1 text-2xl font-semibold leading-tight text-neutral-900 dark:text-neutral-100 sm:text-4xl">
-        Experience the Power of Personalized Learning with Guruu
+        Experience the Power of Personalized Learning with{" "}
+        <span className="lg:text-6xl text-2xl font-semibold   text-[#ff7a45] sm:text-4xl">
+          Guruu
+        </span>{" "}
+        👀
       </h2>
       <div className="flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row">
         <div className="order-3 w-full text-start">
           <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-300 sm:text-xl">
-            At Guruu, we place personalized learning at the core of the
-            experience, using advanced AI to recommend educational content that
-            aligns with your unique interests. Whether you&apos;re exploring new
-            scientific concepts, uncovering historical insights, or tackling
-            complex math, Guruu ensures that each recommendation fosters
-            curiosity and engagement.
+            At{" "}
+            <span className="text-lg font-bold text-[#ff7a45]   md:text-xl">
+              Guruu
+            </span>
+            , we place personalized learning at the core of the experience,
+            using advanced AI to recommend educational content that aligns with
+            your unique interests. Whether you&apos;re exploring new scientific
+            concepts, uncovering historical insights, or tackling complex math,{" "}
+            <span className="text-lg font-bold text-[#ff7a45]   md:text-xl">
+              Guruu
+            </span>{" "}
+            ensures that each recommendation fosters curiosity and engagement.
             <br />
             <br />
             Dive into a world of limitless knowledge tailored to keep you

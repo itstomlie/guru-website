@@ -63,9 +63,12 @@ const Contact = () => {
           Get in Touch
         </h1>
         <p className="mt-4 text-lg text-neutral-600 dark:text-neutral-300 sm:text-xl">
-          If you&apos;re interested in collaborating or simply curious about
-          Guruu, we&apos;d love to hear from you! Reach out, and we&apos;ll get
-          back to you in no time.
+          If you&apos;re interested in collaborating or simply curious about{" "}
+          <span className="text-lg font-bold text-[#ff7a45]   md:text-xl">
+            Guruu
+          </span>
+          , we&apos;d love to hear from you! Reach out, and we&apos;ll get back
+          to you in no time.
         </p>
         <form
           className="mx-auto mt-4 flex w-full max-w-full flex-col items-center justify-center gap-4 py-5"

@@ -9,15 +9,42 @@ const features = [
   },
   {
     title: "Interactive learning",
-    text: "To reinforce learning, Guruu incorporates quizzes, short essays, and problem-solving exercises. These activities helps you apply your newly acquired knowledge, enhancing retention and deepening understanding of the material. 📝✨",
+    text: (
+      <>
+        To reinforce learning, &apos;
+        <span className="text-md mt-4 text-[#ff7a45] sm:text-lg">
+          Guruu
+        </span>{" "}
+        incorporates quizzes, short essays, and problem-solving exercises. These
+        activities helps you apply your newly acquired knowledge, enhancing
+        retention and deepening understanding of the material. 📝✨
+      </>
+    ),
   },
   {
     title: "Gamification with customizable characters, pets, mounts, & dojos",
     text: `You create and customize your avatar, collect pets and mounts, and design your personal 'dojo' (learning space). Complete challenges and quizzes to level up your character, unlock new customizations, abilities, and content.`,
   },
   {
-    title: `'Guruu UNIVERSE': Structured learning paths`,
-    text: `If you want a more structured way of learning, 'Guruu Universe' has you covered. Discover hundreds of curated learning paths crafted by Institutions, teachers, and experts. `,
+    title: (
+      <>
+        &apos;
+        <span className="t text-lg  font-semibold leading-tight text-[#ff7a45]  sm:text-xl">
+          GURUU
+        </span>{" "}
+        UNIVERSE&apos;: Structured learning paths
+      </>
+    ),
+    text: (
+      <>
+        If you want a more structured way of learning, &apos;
+        <span className="text-md mt-4 text-[#ff7a45] sm:text-lg">
+          Guruu
+        </span>{" "}
+        Universe&apos; has you covered. Discover hundreds of curated learning
+        paths crafted by Institutions, teachers, and experts.
+      </>
+    ),
   },
 ]
 
