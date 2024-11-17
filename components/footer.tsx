@@ -8,7 +8,7 @@ const Footer = () => {
   return (
     <div className="mt-24">
       <Separator />
-      <section className="flex flex-col items-center py-24 gap-10">
+      <section className="flex flex-col items-center gap-10 py-24">
         <Image
           src={"/Guruu-Orange-Cropped.svg"}
           width={200}
