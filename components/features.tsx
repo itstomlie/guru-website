@@ -55,13 +55,14 @@ const Features = () => {
         </h2>
 
         <div className="mt-5 flex flex-col items-center justify-center space-y-5 sm:space-y-10 md:flex-row md:space-x-10 ">
-          <div className="z-10 order-1 mb-6 w-full md:mb-0">
-            <Image
-              src={"/images/hero.svg"}
+          <div className="z-10 order-1 mb-6 w-full md:mb-0 flex justify-center">
+            <video
+              src={"/videos/guruu-demo.mp4"}
               width={0}
               height={0}
-              style={{ width: "100%", height: "auto", objectFit: "cover" }}
-              alt="feature image"
+              style={{ width: "60%", height: "50%", objectFit: "cover" }}
+              autoPlay
+              loop={true}
             />
           </div>
           <div className="order-2 flex max-w-full flex-col space-y-5 md:max-w-[50%] md:space-x-0">
