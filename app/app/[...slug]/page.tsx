@@ -11,7 +11,7 @@ const DynamicPage = () => {
   useEffect(() => {
     const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
     if (isMobile && slug) {
-      const deepLink = `myapp://${slug}?token=${token}`
+      const deepLink = `guruu://${slug}?token=${token}`
       window.location.href = deepLink
     }
   }, [slug, token])
