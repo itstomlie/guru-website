@@ -1,27 +1,34 @@
+"use client"
+
 import { useEffect } from "react"
-import { useRouter } from "next/router"
+import { useParams, useRouter } from "next/navigation"
+
+// Correct import for App Router
 
 const DynamicPage = () => {
+  const { slug } = useParams() // Use useParams to capture the dynamic slug
   const router = useRouter()
-  const { slug } = router.query
 
   useEffect(() => {
-    // Check if the user is on a mobile device
+    // Handle redirection or deep linking for mobile
     const isMobile = /iPhone|iPad|Android/i.test(navigator.userAgent)
-
-    // If it's a mobile device, attempt to open the app via deep link
-    if (isMobile) {
-      window.location.href = `myapp://page/${slug?.join("/")}`
+    if (isMobile && slug) {
+      window.location.href = `myapp://${slug}` // Deep link to app
     }
   }, [slug])
+
+  if (!slug) {
+    return (
+      <div>
+        <h1>Loading...</h1>
+      </div>
+    )
+  }
 
   return (
     <div>
       <h1>Dynamic Page</h1>
-      <p>
-        If you are seeing this page, your app didn&apos;t open. Try contacting
-        the developer.
-      </p>
+      <p>Slug: {slug}</p>
     </div>
   )
 }
