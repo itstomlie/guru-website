@@ -25,10 +25,11 @@ const DynamicPage = () => {
   }
 
   return (
-    <div>
-      <h1>Dynamic Page</h1>
-      <p>Slug: {slug}</p>
-      <p>Token: {token}</p>
+    <div style={{ textAlign: "center", marginTop: "20vh" }}>
+      <h1>Password Reset Request Received</h1>
+      <p>You will be redirected to the app in a moment.</p>
+      <br />
+      <p style={{ fontSize: "3rem" }}>Thank you for using Guruu!</p>
     </div>
   )
 }
