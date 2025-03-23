@@ -2,6 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
+import Link from "next/link"
 import emailjs from "@emailjs/browser"
 
 import { Button } from "./ui/button"
@@ -75,7 +76,19 @@ const Hero = () => {
           It&apos;s time to stop wasting hours and start learning something new
           with every swipe.
         </p>
-        <form
+        <div className="full flex flex-row justify-center">
+          <Link href="https://play.google.com/store/apps/details?id=com.itstomlie.Guruu">
+            <Image
+              src={"/images/google-play.webp"}
+              alt="Google Play Image"
+              width={300}
+              height={300}
+              className="h-[1/2] w-[3/5] md:w-[1/2]"
+              style={{ height: "auto", objectFit: "cover" }}
+            />
+          </Link>
+        </div>
+        {/* <form
           className="mx-auto mt-3 flex w-full max-w-full flex-col items-start justify-center gap-4"
           onSubmit={handleSubmit}
         >
@@ -92,7 +105,7 @@ const Hero = () => {
           <Button type="submit" className="w-full text-lg shadow-lg" size="lg">
             🌟 Join the crowd on our waitlist!
           </Button>
-        </form>
+        </form> */}
       </div>
 
       <div className="z-10 order-1 w-3/4 sm:w-full md:order-2">
