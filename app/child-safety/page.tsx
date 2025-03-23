@@ -7,7 +7,7 @@ const ChildSafetyPolicy = () => {
         <title>Child Safety Standards Policy</title>
         <meta
           name="description"
-          content="Child Safety Standards Policy for Guruu. Learn about our commitment to child safety and our procedures for addressing CSAE and CSAM."
+          content="Child Safety Standards Policy for [Your Company Name]. Learn about our commitment to child safety, content filtering, and our procedures for addressing CSAE and CSAM."
         />
       </Head>
       <main
@@ -19,14 +19,15 @@ const ChildSafetyPolicy = () => {
         <section>
           <h2>1. Introduction</h2>
           <p>
-            At Guruu, the safety and well-being of children is our top priority.
-            We are committed to ensuring our app provides a secure environment
-            for all users, particularly minors. In compliance with applicable
-            laws and best practices, this policy outlines the standards our app
-            adheres to in order to prevent and address child sexual abuse and
-            exploitation.
+            At [Your Company Name], the safety and well-being of children is our
+            top priority. We are committed to ensuring our app provides a secure
+            environment for all users, particularly minors. In compliance with
+            applicable laws and best practices, this policy outlines the
+            standards our app adheres to in order to prevent and address child
+            sexual abuse and exploitation.
           </p>
         </section>
+
         <section>
           <h2>2. Scope</h2>
           <p>
@@ -48,6 +49,11 @@ const ChildSafetyPolicy = () => {
               children.
             </li>
             <li>
+              <strong>Content Filtering:</strong> All content within our app is
+              carefully filtered and monitored to ensure that it does no harm to
+              children.
+            </li>
+            <li>
               <strong>Accessibility:</strong> These standards are prominently
               displayed within our app and on our website to ensure that all
               users understand our commitment to child safety.
@@ -59,9 +65,11 @@ const ChildSafetyPolicy = () => {
           <h2>4. In-App Mechanism for User Feedback</h2>
           <ul>
             <li>
-              <strong>Reporting Tools:</strong> We have integrated a robust,
-              in-app mechanism that allows users to submit feedback, concerns,
-              or reports regarding any content that may violate these standards.
+              <strong>Reporting Tools:</strong> Although the in-app mechanism
+              for submitting feedback is currently under development, we are
+              actively working on a robust solution that will allow users to
+              submit concerns or reports regarding any content that may violate
+              these standards.
             </li>
             <li>
               <strong>User Empowerment:</strong> We encourage our users to
@@ -133,11 +141,11 @@ const ChildSafetyPolicy = () => {
           <h2>8. Conclusion</h2>
           <p>
             Our commitment to child safety is unwavering. By publishing these
-            standards and integrating effective in-app feedback and reporting
-            mechanisms, Guruu ensures that our community remains a safe space
-            for all users. We continuously work to improve our processes and
-            remain fully compliant with all relevant child safety laws and
-            regulations.
+            standards, integrating robust content filtering, and developing
+            effective in-app feedback mechanisms, [Your Company Name] ensures
+            that our community remains a safe space for all users. We
+            continuously work to improve our processes and remain fully
+            compliant with all relevant child safety laws and regulations.
           </p>
           <p>
             For further information on these requirements or to report any
