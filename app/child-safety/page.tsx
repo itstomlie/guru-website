@@ -7,7 +7,7 @@ const ChildSafetyPolicy = () => {
         <title>Child Safety Standards Policy</title>
         <meta
           name="description"
-          content="Child Safety Standards Policy for [Your Company Name]. Learn about our commitment to child safety, content filtering, and our procedures for addressing CSAE and CSAM."
+          content="Child Safety Standards Policy for Guruu. Learn about our commitment to child safety, content filtering, and our procedures for addressing CSAE and CSAM."
         />
       </Head>
       <main
@@ -19,12 +19,12 @@ const ChildSafetyPolicy = () => {
         <section>
           <h2>1. Introduction</h2>
           <p>
-            At [Your Company Name], the safety and well-being of children is our
-            top priority. We are committed to ensuring our app provides a secure
-            environment for all users, particularly minors. In compliance with
-            applicable laws and best practices, this policy outlines the
-            standards our app adheres to in order to prevent and address child
-            sexual abuse and exploitation.
+            At Guruu, the safety and well-being of children is our top priority.
+            We are committed to ensuring our app provides a secure environment
+            for all users, particularly minors. In compliance with applicable
+            laws and best practices, this policy outlines the standards our app
+            adheres to in order to prevent and address child sexual abuse and
+            exploitation.
           </p>
         </section>
 
@@ -142,10 +142,10 @@ const ChildSafetyPolicy = () => {
           <p>
             Our commitment to child safety is unwavering. By publishing these
             standards, integrating robust content filtering, and developing
-            effective in-app feedback mechanisms, [Your Company Name] ensures
-            that our community remains a safe space for all users. We
-            continuously work to improve our processes and remain fully
-            compliant with all relevant child safety laws and regulations.
+            effective in-app feedback mechanisms, Guruu ensures that our
+            community remains a safe space for all users. We continuously work
+            to improve our processes and remain fully compliant with all
+            relevant child safety laws and regulations.
           </p>
           <p>
             For further information on these requirements or to report any
