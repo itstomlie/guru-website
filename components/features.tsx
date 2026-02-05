@@ -62,6 +62,7 @@ const Features = () => {
               height={0}
               style={{ width: "60%", height: "50%", objectFit: "cover" }}
               autoPlay
+              muted
               loop={true}
             />
           </div>
